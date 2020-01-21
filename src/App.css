@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+p, ul,h1,h2,h3,h4,h5,h6{
+  margin: 0;
+}
+
+
+.App {
+  min-height: 100vh;
+  background: #f9ca24;
+}
+
+.search-form {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar {
+  width: 50%;
+  border: none;
+  padding: 15px 15px 15px 20px;
+  outline: none;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border: 1px solid white;
+  transition: all 0.3s;
+}
+
+.search-bar:focus {
+  border: 1px solid #686de0;
+}
+.search-button {
+  border: none;
+  padding: 15px 20px;
+  background-color: #c7ecee;
+  outline: none;
+  cursor: pointer;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  
+}
+.search-button img {
+  width: 14px;
+  height: 14px;
+}
+.recipes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.calories {
+  font-size: 17px;
+  font-style: italic;
+  text-align: center;
+}
+
+.recipe_recipe__zOk-o {
+  padding: 15px;
+  background-color: #ecf0f1;
+}
+ul{
+  max-width: 500px;
+}
+
+.recipe-title{
+  margin-bottom: 10px;
+}
+
+.recipe-list p{
+  margin-left: 20px;
+  font-weight: 700;
+}
+.recipe-list{
+  margin-bottom: 15px;
+ display: block;
+}
