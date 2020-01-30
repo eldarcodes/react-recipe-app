@@ -3,10 +3,16 @@ body {
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
-p, ul,h1,h2,h3,h4,h5,h6{
+p,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
-
 
 .App {
   min-height: 100vh;
@@ -42,7 +48,6 @@ p, ul,h1,h2,h3,h4,h5,h6{
   cursor: pointer;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  
 }
 .search-button img {
   width: 14px;
@@ -52,6 +57,7 @@ p, ul,h1,h2,h3,h4,h5,h6{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  padding: 0 10px;
 }
 
 .calories {
@@ -60,23 +66,20 @@ p, ul,h1,h2,h3,h4,h5,h6{
   text-align: center;
 }
 
-.recipe_recipe__zOk-o {
-  padding: 15px;
-  background-color: #ecf0f1;
-}
-ul{
+ul {
   max-width: 500px;
 }
 
-.recipe-title{
-  margin-bottom: 10px;
+.recipe-title {
+  margin-bottom: 20px;
+  text-align: center;
 }
 
-.recipe-list p{
+.recipe-list p {
   margin-left: 20px;
   font-weight: 700;
 }
-.recipe-list{
+.recipe-list {
   margin-bottom: 15px;
- display: block;
+  display: block;
 }
